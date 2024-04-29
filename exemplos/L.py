@@ -1,0 +1,17 @@
+class Bird:
+    def fly(self):
+        return "Flying"
+
+class Ostrich(Bird):
+    def fly(self):
+        return "Can't fly"
+
+def bird_fly(bird):
+    return bird.fly()
+
+# Exemplo de uso
+bird = Bird()
+ostrich = Ostrich()
+
+print(bird_fly(bird))   # Saída: "Flying"
+print(bird_fly(ostrich))  # Saída: "Can't fly"
