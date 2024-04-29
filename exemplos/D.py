@@ -21,3 +21,7 @@ paypal_provider = PayPalPaymentProvider()
 
 print(payment_processor.process_payment(credit_card_provider))
 print(payment_processor.process_payment(paypal_provider))
+
+
+#Neste caso, cada método é extremamente independente, onde PaymentProcessor não depende de uma forma apenas de pagamento, mas sim de qualquer uma subclasse de PaymentProvider
+# Tornando assim o código modular
