@@ -7,7 +7,7 @@ O SRP afirma que uma classe deve ter apenas uma responsabilidade.
 Ele ajuda a manter o código modular, facilitando a manutenção, teste e reutilização.
 ### Exemplo em Python:
 
-<a href="https://github.com/matheusa1/Atividades-Engenharia/blob/main/exemplos/S.py">Exemplo de código </a>
+<a target="_blank" href="https://github.com/matheusa1/Atividades-Engenharia/blob/main/exemplos/S.py">Exemplo de código </a>
 
 ## 2. Open-Closed Principle (Princípio Aberto-Fechado)
 ### O que é?
