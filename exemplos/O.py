@@ -24,3 +24,6 @@ class Circle(Shape):
 shapes = [Rectangle(5, 4), Circle(3)]
 for shape in shapes:
     print(f"Área da forma: {shape.area()}")]
+
+
+# Neste exemplo a classe Shape, podee ser extendida de forma variada, e não pode ser alterada, tendo em vista que o seu método é abstrato
