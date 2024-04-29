@@ -6,30 +6,9 @@ O SRP afirma que uma classe deve ter apenas uma responsabilidade.
 ### Para que serve?
 Ele ajuda a manter o código modular, facilitando a manutenção, teste e reutilização.
 ### Exemplo em Python:
-```py
-class FileManager:
-    def read_file(self, file_name):
-        with open(file_name, 'r') as file:
-            return file.read()
 
-    def write_file(self, file_name, data):
-        with open(file_name, 'w') as file:
-            file.write(data)
+<a href="https://github.com/matheusa1/Atividades-Engenharia/blob/main/exemplos/S.py">Exemplo de código </a>
 
-class DataProcessor:
-    def process_data(self, data):
-        # Process data here
-        return processed_data
-
-    def save_processed_data(self, processed_data):
-        file_manager = FileManager()
-        file_manager.write_file('processed_data.txt', processed_data)
-
-# Exemplo de uso
-data = FileManager().read_file('data.txt')
-processed_data = DataProcessor().process_data(data)
-DataProcessor().save_processed_data(processed_data)
-```
 ## 2. Open-Closed Principle (Princípio Aberto-Fechado)
 ### O que é?
 O OCP afirma que uma classe deve ser aberta para extensão, mas fechada para modificação.
