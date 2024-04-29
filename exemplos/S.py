@@ -20,3 +20,7 @@ class DataProcessor:
 data = FileManager().read_file('data.txt')
 processed_data = DataProcessor().process_data(data)
 DataProcessor().save_processed_data(processed_data)
+
+
+# Neste exemplo cada classe e cada método tem sua função, os métodos read_file e write_file, possuem uma função cada, e pertencem a classe
+# FileManager, que também possui apenas uma função, gerir arquivos, o mesmo se repete para DataProcessor e seus métodos
